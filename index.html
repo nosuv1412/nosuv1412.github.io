@@ -1,212 +1,313 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Thanh Son Vu | Independent Researcher</title>
+  <title>Thanh Son Vu | Independent Researcher</title>
+  <meta name="description" content="Academic homepage of Thanh Son Vu, Independent Researcher in machine learning, prognostics, remaining useful life prediction, and representation learning.">
 
-    <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
-                         Roboto, Arial, sans-serif;
-            max-width: 900px;
-            margin: 60px auto;
-            padding: 0 25px;
-            line-height: 1.7;
-            color: #222;
-            background: #ffffff;
-        }
+  <style>
+    :root {
+      --text: #1f2328;
+      --muted: #59636e;
+      --line: #d8dee4;
+      --link: #0969da;
+      --soft: #f6f8fa;
+      --max-width: 920px;
+    }
 
-        h1 {
-            font-size: 38px;
-            margin-bottom: 5px;
-        }
+    * {
+      box-sizing: border-box;
+    }
 
-        h2 {
-            margin-top: 42px;
-            padding-bottom: 8px;
-            border-bottom: 1px solid #ddd;
-        }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: var(--text);
+      background: #ffffff;
+      line-height: 1.7;
+    }
 
-        h3 {
-            margin-bottom: 5px;
-        }
+    .page {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 64px 24px 48px;
+    }
 
-        .subtitle {
-            font-size: 20px;
-            color: #555;
-            margin-top: 0;
-        }
+    header {
+      padding-bottom: 28px;
+      border-bottom: 1px solid var(--line);
+    }
 
-        .research-status {
-            color: #666;
-            font-style: italic;
-        }
+    h1 {
+      margin: 0 0 4px;
+      font-size: 2.35rem;
+      line-height: 1.2;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
 
-        a {
-            color: #0969da;
-            text-decoration: none;
-        }
+    .subtitle {
+      margin: 0 0 18px;
+      color: var(--muted);
+      font-size: 1.1rem;
+    }
 
-        a:hover {
-            text-decoration: underline;
-        }
+    .contact {
+      margin: 0;
+    }
 
-        .footer {
-            margin-top: 60px;
-            padding-top: 20px;
-            border-top: 1px solid #ddd;
-            color: #777;
-            font-size: 14px;
-        }
-    </style>
+    a {
+      color: var(--link);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      padding-top: 34px;
+    }
+
+    h2 {
+      margin: 0 0 16px;
+      padding-bottom: 7px;
+      border-bottom: 1px solid var(--line);
+      font-size: 1.35rem;
+    }
+
+    h3 {
+      margin: 0 0 4px;
+      font-size: 1.05rem;
+    }
+
+    p {
+      margin: 8px 0 14px;
+    }
+
+    ul {
+      margin-top: 8px;
+      padding-left: 22px;
+    }
+
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 12px;
+    }
+
+    .tag {
+      background: var(--soft);
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 4px 10px;
+      font-size: 0.92rem;
+    }
+
+    .item {
+      margin-bottom: 24px;
+    }
+
+    .meta {
+      margin-top: 2px;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .status {
+      display: inline-block;
+      margin-top: 5px;
+      padding: 2px 8px;
+      border: 1px solid var(--line);
+      border-radius: 5px;
+      color: var(--muted);
+      font-size: 0.88rem;
+      background: var(--soft);
+    }
+
+    .pub-title {
+      font-weight: 650;
+    }
+
+    footer {
+      margin-top: 48px;
+      padding-top: 20px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      .page {
+        padding-top: 38px;
+      }
+
+      h1 {
+        font-size: 1.9rem;
+      }
+    }
+  </style>
 </head>
 
 <body>
+  <main class="page">
+    <header>
+      <h1>Thanh Son Vu</h1>
+      <p class="subtitle">Independent Researcher</p>
 
-    <h1>Thanh Son Vu</h1>
+      <p>
+        I am an independent researcher with a background in Information Technology.
+        My current interests focus on machine learning, prognostics and health management,
+        remaining useful life prediction, time-series learning, representation learning,
+        and manifold learning.
+      </p>
 
-    <p class="subtitle">
-        Independent Researcher
-    </p>
-
-    <p>
-        I am an independent researcher with a background in
-        Information Technology and research interests in machine learning,
-        deep learning, computer vision, prognostics, and representation learning.
-    </p>
-
-    <p>
+      <p class="contact">
         Email:
-        <a href="mailto:sonn141202@gmail.com">
-            sonn141202@gmail.com
-        </a>
-    </p>
+        <a href="mailto:sonn141202@gmail.com">sonn141202@gmail.com</a>
+      </p>
+    </header>
 
+    <section>
+      <h2>Research Interests</h2>
+      <div class="tags">
+        <span class="tag">Machine Learning</span>
+        <span class="tag">Deep Learning</span>
+        <span class="tag">Remaining Useful Life Prediction</span>
+        <span class="tag">Prognostics and Health Management</span>
+        <span class="tag">Time-Series Learning</span>
+        <span class="tag">Representation Learning</span>
+        <span class="tag">Manifold Learning</span>
+        <span class="tag">Ensemble Learning</span>
+      </div>
+    </section>
 
-    <h2>Research Interests</h2>
+    <section>
+      <h2>Current Research</h2>
 
-    <p>
-        Machine Learning · Deep Learning ·
-        Remaining Useful Life Prediction ·
-        Prognostics and Health Management ·
-        Representation Learning ·
-        Manifold Learning ·
-        Time-Series Learning
-    </p>
+      <div class="item">
+        <h3>Health-Aware Manifold Learning (HAML)</h3>
+        <span class="status">Ongoing research project</span>
 
+        <p>
+          HAML investigates health-aware representation learning for Remaining Useful Life
+          (RUL) prediction and degradation modelling in prognostics and health management.
+          The project studies how degradation-aware representations can support robust,
+          interpretable, and transferable RUL prediction from multivariate time-series data.
+        </p>
+      </div>
+    </section>
 
-    <h2>Current Research</h2>
+    <section>
+      <h2>Publications</h2>
 
-    <h3>
-        Health-Aware Manifold Learning (HAML)
-    </h3>
+      <div class="item">
+        <p class="pub-title">
+          A Feature Transformation Technique for Improving Ensemble Learning Systems
+        </p>
+        <p>
+          Truong Thanh Nguyen, Hieu Vu, Truong Dang, Eyad Elyan,
+          <strong>Thanh Son Vu</strong>, and Tien Thanh Nguyen.
+        </p>
+        <p class="meta">
+          17th Asian Conference on Intelligent Information and Database Systems (ACIIDS 2025),
+          Lecture Notes in Computer Science, Vol. 15684, Part II, pp. 292–306, Springer, 2025.
+        </p>
+        <p>
+          <a href="https://doi.org/10.1007/978-981-96-6005-6_21" target="_blank" rel="noopener noreferrer">DOI</a>
+          ·
+          <a href="https://rgu-repository.worktribe.com/output/2836763/a-feature-transformation-technique-for-improving-ensemble-learning-systems" target="_blank" rel="noopener noreferrer">Repository record</a>
+        </p>
+      </div>
 
-    <p class="research-status">
-        Ongoing research project
-    </p>
+      <div class="item">
+        <p class="pub-title">
+          An Efficient Image Representation Method and Fast Image Retrieval
+        </p>
+        <p>
+          Viet Dung Cu, <strong>Thanh Son Vu</strong>, Huu Quynh Nguyen,
+          Van Van Chau, and Minh Huong Ngo.
+        </p>
+        <p class="meta">
+          FAIR – Fundamental and Applied IT Research, Hanoi, 2024.
+        </p>
+      </div>
+    </section>
 
-    <p>
-        HAML investigates health-aware representation learning
-        for Remaining Useful Life (RUL) prediction and degradation
-        modelling in prognostics and health management.
-    </p>
+    <section>
+      <h2>Selected Research Projects</h2>
 
-    <p>
-        The project focuses on learning meaningful degradation
-        representations from multivariate time-series data while
-        supporting robust and interpretable RUL prediction.
-    </p>
+      <div class="item">
+        <h3>ViT-RBTFIR: Vision Transformer and Randomized Binary Tree Forest for Image Retrieval</h3>
+        <p class="meta">2024</p>
+        <p>
+          An image retrieval approach combining Vision Transformer representations with a
+          randomized binary-tree forest strategy for efficient similarity search. Experiments
+          were conducted on Corel, CIFAR-10, and CIFAR-100.
+        </p>
+      </div>
 
+      <div class="item">
+        <h3>Time-Series Prediction with Recurrent Neural Networks</h3>
+        <p class="meta">2023</p>
+        <p>
+          Explored RNN, GRU, and LSTM architectures for time-series forecasting, including
+          data preprocessing, model construction, and evaluation.
+        </p>
+      </div>
+    </section>
 
-    <h2>Publications</h2>
+    <section>
+      <h2>Education</h2>
 
-    <p>
-        <strong>
-            An Efficient Image Representation Method and Fast Image Retrieval
-        </strong><br>
+      <div class="item">
+        <h3>Bachelor in Information Technology</h3>
+        <p class="meta">Thuy Loi University, Vietnam · 2020–2024</p>
+      </div>
+    </section>
 
-        Viet Dung Cu, <strong>Thanh Son Vu</strong>,
-        Huu Quynh Nguyen, Van Van Chau, Minh Huong Ngo.<br>
+    <section>
+      <h2>Research Background</h2>
+      <p>
+        My research background includes machine learning, deep learning, ensemble learning,
+        computer vision, image retrieval, time-series modelling, and representation learning.
+      </p>
+    </section>
 
-        FAIR – Fundamental and Applied IT Research, 2024.
-    </p>
-
-
-    <h2>Selected Projects</h2>
-
-    <h3>
-        ViT-RBTFIR: Vision Transformer and Randomized Binary Tree
-        Forest for Image Retrieval
-    </h3>
-
-    <p>
-        Image retrieval framework using Vision Transformer
-        representations together with randomized binary tree
-        forests for efficient similarity search.
-    </p>
-
-    <h3>
-        Time-Series Prediction
-    </h3>
-
-    <p>
-        Experiments with RNN, GRU and LSTM architectures for
-        time-series forecasting.
-    </p>
-
-
-    <h2>Education</h2>
-
-    <p>
-        <strong>Bachelor in Information Technology</strong><br>
-        Thuy Loi University, Vietnam<br>
-        2020 – 2024
-    </p>
-
-
-    <h2>Research Background</h2>
-
-    <p>
-        My research background includes machine learning,
-        deep learning, ensemble learning, computer vision,
-        image retrieval, time-series modelling, and
-        representation learning.
-    </p>
-
-
-    <h2>Links</h2>
-
-    <p>
+    <section>
+      <h2>Academic Profiles</h2>
+      <p>
         GitHub:
-        <a href="https://github.com/YOUR_USERNAME">
-            github.com/nosuv1412
+        <a href="https://github.com/YOUR_GITHUB_USERNAME" target="_blank" rel="noopener noreferrer">
+          github.com/YOUR_GITHUB_USERNAME
         </a>
-    </p>
+      </p>
 
-    <!-- Add these later if available:
+      <!-- Optional: uncomment these after you create the profiles.
 
-    <p>
+      <p>
         Google Scholar:
-        <a href="YOUR_GOOGLE_SCHOLAR_URL">
-            Google Scholar
+        <a href="YOUR_GOOGLE_SCHOLAR_URL" target="_blank" rel="noopener noreferrer">
+          Google Scholar
         </a>
-    </p>
+      </p>
 
-    <p>
+      <p>
         ORCID:
-        <a href="YOUR_ORCID_URL">
-            ORCID
+        <a href="YOUR_ORCID_URL" target="_blank" rel="noopener noreferrer">
+          ORCID
         </a>
-    </p>
+      </p>
 
-    -->
+      -->
+    </section>
 
-
-    <div class="footer">
-        Last updated: September 2026
-    </div>
-
+    <footer>
+      Last updated: September 2026
+    </footer>
+  </main>
 </body>
 </html>
